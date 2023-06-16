@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+        margin:0;
+        border: 0;
+     }
+     ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        padding-left: 10px;
+        margin-top: 10px;
+     }
+     a{
+      text-decoration: none;
+      color:black;
+      padding-bottom: 10px;
+     }
+     h1{
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: gold;
+     }
+     h2{
+      margin-left:40px;
+      margin-top: 10px;
+      color: white;
+     }
+     p{
+      margin: 20px;
+      color: white;
+     }
+     button{
+      background-color: gold;
+      color: black;
+      border: 1px solid black;
+      padding: 5px;
+      font-weight: bold;
+      border-radius: 4px;
+     }
+     img{
+      height: 250px;
+      width:100%;
+      padding-left:5px;
+      border-radius:100px 0px 0px 100px;
+     }
+     #nav{
+      height: 40px;
+      width:100%;
+      border-radius: 40px;
+     }
+     #item-container{
+      height:200px;
+      width:100%;
+      background-color: rgb(46, 43, 43);
+      display:flex;
+      justify-content: space-evenly;
+      align-items: center;
+      border-radius: 5px;
+     }
+     #img-container{
+      height:260px;
+      width:50%;
+      background-color: rgb(46, 43, 43);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      float: right;
+      border-radius:100px 0px 0px 100px;
+      margin-right: 0px;
+      margin-bottom: 7px;
+ }
+     .item{
+      height:170px;
+      width:170px;
+      background-color: gold;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction:column;
+     }
+     .item-nav{
+      text-decoration: underline;
+
+     }
+     ul li a{
+      font-weight: bold;
+      font-family:Arial, Helvetica, sans-serif
+     }
+     ul li a:hover{
+      color: gold;
+     }
+   
+
+    </style>
+</head>
+<body style="background-color: black" >
+   <h1>My first styled page</h1>
+   <h2>Welcome to <br>
+   <span style="color: gold;">my styled page!</span></h2>
+   <div id="img-container"><img src="./image.jpeg"></div>
+   <ol style="color: white;">
+    <li>Computer Science Student</li>
+    <li>Direct Entry Student</li>
+    <li>Diploma Students</li>
+   </ol>
+   <p> It lacks images, nut but at least it has style, and it has links even if they don't go anywhere <br> There should be more here,but i don't know what yet.</p>
+   <p><i>Made 16 June 2023 <br>
+      by my self</i>
+   </p>
+   <div id="item-container">
+      <div class="item">
+         <button type="button">Homepage</button>
+         <a class="item-nav" href="#">See more</a>
+      </div>
+      <div class="item">
+         <button type="button">Musings</button>
+         <a class="item-nav" href="#">See more</a>
+      </div>
+      <div class="item">
+         <button type="button">My towns</button>
+         <a class="item-nav" href="#">See more</a>
+      </div>
+      <div class="item">
+         <button type="button"> Links</button>
+         <a class="item-nav" href="#">See more</a>
+      </div>
+   </div>
+</body>
+</html>
